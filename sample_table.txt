@@ -1,0 +1,6 @@
+Symbol Table
+-----------------
+1   startFrom
+2   fib_last
+3   fib_secondLast
+4   fib_next

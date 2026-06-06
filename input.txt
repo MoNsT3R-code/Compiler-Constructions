@@ -1,0 +1,13 @@
+startFrom = 0
+fib_last = 1
+fib_secondLast = 1
+
+while(startFrom < 7)
+{
+fib_next = fib_last + fib_secondLast
+fib_secondLast = fib_last
+fib_last = fib_next
+startFrom = startFrom + 1
+}
+
+print(fib_last)
